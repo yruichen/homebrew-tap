@@ -4,7 +4,7 @@ cask "lino" do
 
   url "https://github.com/yruichen/lino/releases/download/v#{version}/Lino-v#{version}-macos-arm64.zip"
   name "Lino"
-  desc "Markdown editor with a native macOS interface"
+  desc "Markdown editor with visual and source editing"
   homepage "https://github.com/yruichen/lino"
 
   depends_on arch: :arm64
