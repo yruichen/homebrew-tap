@@ -8,7 +8,7 @@ cask "lino" do
   homepage "https://github.com/yruichen/lino"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Lino.app"
 
