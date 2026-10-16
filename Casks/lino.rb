@@ -1,8 +1,8 @@
 cask "lino" do
-  version "0.0.4"
-  sha256 "8471182bad28151119db2f49ca5b85589ffb605ae1efb7b54408e9639e65bab6"
+  version "0.1.0"
+  sha256 "ebfb904c56444158fbc9fdd2e99d0e2a9ae505682cc58ec96dfe801819cf67a3"
 
-  url "https://github.com/yruichen/lino/releases/download/v0.0.4/Lino-v0.0.4-macos-arm64.zip"
+  url "https://github.com/yruichen/lino/releases/download/v0.1.0/Lino-v0.1.0-macos-arm64.zip"
   name "Lino"
   desc "Markdown editor with visual and source editing"
   homepage "https://yruichen.github.io/lino/"
@@ -13,7 +13,7 @@ cask "lino" do
   app "Lino.app"
 
   caveats <<~EOS
-    Lino is currently in Beta and is not notarized by Apple.
+    Lino is not notarized by Apple.
     If macOS blocks the first launch, approve Lino in:
       System Settings > Privacy & Security > Open Anyway
   EOS
