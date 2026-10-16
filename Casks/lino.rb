@@ -11,10 +11,4 @@ cask "lino" do
   depends_on macos: :sonoma
 
   app "Lino.app"
-
-  caveats <<~EOS
-    Lino is not notarized by Apple.
-    If macOS blocks the first launch, approve Lino in:
-      System Settings > Privacy & Security > Open Anyway
-  EOS
 end
